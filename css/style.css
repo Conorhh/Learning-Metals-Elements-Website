@@ -1,0 +1,1075 @@
+/*body text and other general css*/ 
+
+.main_para{
+    text-align:justify;
+}
+
+
+
+/*home page*/
+
+.home_body{
+     background-color: #1695A3;
+    background-image: url(../images/background_home.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.home{
+    
+    /*background styling*/
+    
+    min-height: 100vh;
+   
+    /*content styling*/
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.home_title{
+    text-align: center;
+}
+
+
+
+.title_for_home{
+    font-family: 'Bungee Inline';
+    color: white;
+    font-size: 5em;
+    letter-spacing: 0.03em;
+    margin-top: 3%;
+}
+
+.title_tagline{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    margin-top: -6.5%;
+    font-weight: 100;
+    -webkit-animation-delay:0.5s;
+}
+
+
+.flask{
+    width: 11%;
+    -webkit-animation-delay:0.2s;
+}
+
+.down_button{
+    width: 12%;
+    margin-top: 5%;
+     -webkit-animation-delay:0.9s;
+}
+
+
+
+/*elements select page*/
+
+.elements{
+    
+    /*background styling*/
+    
+    min-height: 100vh;
+
+    
+    /*content styling*/
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.elements_illustration{
+    width: 8%;
+}
+
+.title_for_elements{
+    font-family: 'Bungee Inline';
+    color: white;
+    font-size: 5em;
+    letter-spacing: 0.03em;
+    margin-top: 1%;
+}
+
+.elements_tagline{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: white;
+    font-weight: 100;
+    margin-top: -3%
+}
+
+.elements_heading{
+    text-align: center;
+}
+
+.element_buttons{
+    display: flex;
+    justify-content: space-around;
+    position:relative;
+    flex-wrap: wrap;
+    
+}
+
+figcaption{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.8em;
+    color: white;
+    margin-top: 3%;
+    font-weight: 100;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*Copper Page*/ 
+
+
+@font-face {
+	font-family: 'BungeeInline-Regular';
+	src: url('../fonts/BungeeInline-Regular.eot');
+	src: local('BungeeInline-Regular'), local('Riesling'), url('../fonts/BungeeInline-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'BungeeInline-Regular';
+	src: url('../fonts/BungeeInline-Regular.eot');
+	src: local('BungeeInline-Regular'), local('Riesling'), url('../fonts/BungeeInline-Regular.ttf') format('truetype');
+}
+
+.copper_body{
+    
+height:100%;
+width:100%; 
+background-image: url(../images/copper_background.jpg); 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+margin-top: 5%;	
+}
+
+.copper_h1 {
+    
+  font-size:3em;
+  color: #CC664E;
+  font-family: 'BungeeInline-Regular', Arial, sans-serif;
+  position: relative;
+  bottom:20px;
+}
+
+.coppercolumn{
+    
+display: flex;
+display: -webkit-flex;
+flex-direction: column;
+align-items: center;  
+}
+
+.column{
+    
+display: flex;
+display: -webkit-flex;
+flex-direction: column;
+align-items: center;
+margin-top:-2%;
+position: relative;
+
+   
+}
+
+.copper_h2 {
+       
+font-size:1.5em;
+color: #CC664E;
+font-family: 'BungeeInline-Regular', Arial, sans-serif;
+    
+}
+
+p {
+    font-size: 1.2em;
+    color: floralwhite;
+    font-family: 'Roboto', sans-serif;
+    width: 21em;
+    text-align: center;
+    line-height: 1.4em;
+    position:relative;
+    bottom:50px;
+
+}
+
+p2 {
+    font-size: 1.2em;
+    color: floralwhite;
+    font-family: 'Roboto', sans-serif;
+    width: 21em;
+    text-align: center;
+    line-height: 1.4em;
+    position:relative;
+    bottom:90px;
+
+}
+
+p3 {
+    font-size: 1.2em;
+    color: floralwhite;
+    font-family: 'Roboto', sans-serif;
+    width: 21em;
+    text-align: center;
+    line-height: 1.4em;
+    position:relative;
+    bottom:105px;
+
+}
+
+input {
+    position: fixed;
+    font-size: 2em;
+    color: #ffffff;
+    font-family: 'BungeeInline-Regular', Arial, sans-serif;
+    text-align: center;
+    line-height: 1.4em;
+   
+    left:25px;
+    top:25px;
+    border:1px solid #ffffff;
+    background-color: transparent;
+
+}
+
+.questionblock{
+    
+display: flex;
+display: -webkit-flex;    
+flex-direction: column;
+align-items: center; 
+position: relative;
+margin-top: 20px;
+bottom: 15px;
+    
+}
+   
+
+
+.speechblock{
+    
+display: flex;
+display: -webkit-flex;    
+flex-direction: column;
+align-items: center; 
+position: relative;
+bottom: 50px;
+margin-bottom: 25px;
+    
+}
+
+
+
+.eyeblock{
+    
+display: flex;
+display: -webkit-flex;    
+flex-direction: column;
+align-items: center; 
+bottom:70px;
+margin-bottom: 15px;
+position: relative;
+    
+}
+
+
+
+.containerbox{
+    
+display: flex;
+display: -webkit-flex;
+flex-direction: column;
+align-items: center;
+margin-top:-8%;
+    margin-bottom: 4%;
+    
+}
+
+.items{
+    
+display: flex;
+display: -webkit-flex;
+flex-direction: row;
+position: absolute;
+margin-top:4%;
+
+    
+}
+
+.used_1{
+    
+display: flex;
+display: -webkit-flex;
+flex-direction: column;
+align-items: center;
+position:relative;
+right:10%;
+
+    
+}
+
+.used_2{
+    
+display: flex;
+display: -webkit-flex;
+flex-direction: column;
+align-items: center;
+position:relative;
+right:5%;
+
+}
+
+.used_3{
+    
+display: flex;
+display: -webkit-flex;
+flex-direction: column;
+align-items: center;
+position:relative;
+    
+}
+
+.used_4{
+    
+display: flex;
+display: -webkit-flex;
+flex-direction: column;
+align-items: center;
+position:relative;
+left:5%;
+    
+}
+
+.used_5{
+    
+display: flex;
+display: -webkit-flex;
+flex-direction: column;
+align-items: center;
+position:relative;
+left:10%;
+}
+
+.copper_h3 {
+  
+font-size:1.5em;
+color: #CC664E;
+font-family: 'BungeeInline-Regular', Arial, sans-serif;
+margin-top:5%;
+}
+
+p1 {
+    
+font-size: 1em;
+color: floralwhite;
+font-family: 'Roboto', sans-serif;
+width: 10em;
+text-align: center;
+margin-top:-2%;
+
+}
+
+
+/*Iron Page Below*/
+
+.iron_body{
+    
+height:100%;
+width:100%; 
+background-image: url(../images/iron_background.jpg); 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+	margin-top: 5%;	
+
+}
+
+
+.iron_h1 {
+    
+  font-size:3em;
+  color: #707070;
+  font-family: 'BungeeInline-Regular', Arial, sans-serif;
+  position: relative;
+  bottom:20px;
+}
+
+
+.iron_h2 {
+       
+font-size:1.5em;
+color: #707070;
+font-family: 'BungeeInline-Regular', Arial, sans-serif;
+    
+}
+
+
+.iron_h3 {
+  
+font-size:1.5em;
+color: #707070;
+font-family: 'BungeeInline-Regular', Arial, sans-serif;
+margin-top:5%;
+}
+
+
+
+
+/*Aluminium Page Below*/
+
+.aluminium_body{
+    
+height:100%;
+width:100%; 
+background-image: url(../images/aluminium_background.jpg); 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+margin-top: 5%;	
+
+}
+
+
+.aluminium_h1 {
+    
+  font-size:3em;
+  color: #DDDDDD;
+  font-family: 'BungeeInline-Regular', Arial, sans-serif;
+  position: relative;
+  bottom:20px;
+  -webkit-animation-delay: 0.3s;
+}
+
+
+.aluminium_h2 {
+       
+font-size:1.5em;
+color: #DDDDDD;
+font-family: 'BungeeInline-Regular', Arial, sans-serif;
+    
+}
+
+
+.aluminium_h3 {
+  
+font-size:1.5em;
+color: #DDDDDD;
+font-family: 'BungeeInline-Regular', Arial, sans-serif;
+margin-top:5%;
+}
+
+
+/*Silver Page Below*/
+
+.silver_body{
+    
+height:100%;
+width:100%; 
+background-image: url(../images/silver_background.jpg); 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+	margin-top: 5%;	
+
+}
+
+
+.silver_h1 {
+    
+  font-size:3em;
+  color: #FFF;
+  font-family: 'BungeeInline-Regular', Arial, sans-serif;
+  position: relative;
+  bottom:20px;
+}
+
+
+.silver_h2 {
+       
+font-size:1.5em;
+color: #FFF;
+font-family: 'BungeeInline-Regular', Arial, sans-serif;
+    
+}
+
+
+.silver_h3 {
+  
+font-size:1.5em;
+color: #FFF;
+font-family: 'BungeeInline-Regular', Arial, sans-serif;
+margin-top:5%;
+}
+
+
+/*Gold Page Below*/
+
+.gold_body{
+    
+height:100%;
+width:100%; 
+background-image: url(../images/gold_background.jpg); 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+	margin-top: 5%;	
+
+}
+
+
+.gold_h1 {
+    
+  font-size:3em;
+  color: #F9F97A;
+  font-family: 'BungeeInline-Regular', Arial, sans-serif;
+  position: relative;
+  bottom:20px;
+}
+
+
+.gold_h2 {
+       
+font-size:1.5em;
+color: #F9F97A;
+font-family: 'BungeeInline-Regular', Arial, sans-serif;
+    
+}
+
+
+.gold_h3 {
+  
+font-size:1.5em;
+color: #F9F97A;
+font-family: 'BungeeInline-Regular', Arial, sans-serif;
+margin-top:5%;
+}
+
+.quest{
+	-webkit-animation-delay: 0.8s;
+}
+
+.speech{
+	-webkit-animation-delay: 1.2s;
+}
+
+.eye{
+	-webkit-animation-delay: 1.5s;
+	
+}
+
+
+
+/*END OF CSS*/
+
+@media only screen 
+   and (min-height : 1800px) 
+   and (min-width : 2880px) {
+	   
+	
+.title_for_home{
+    font-size: 10em;
+
+}
+
+.title_tagline{
+  
+    font-size: 3em;
+  
+}
+
+
+
+
+/*elements select page*/
+
+
+.elements_illustration{
+    width: 8%;
+}
+
+.title_for_elements{
+   
+    font-size: 8em;
+}
+
+.elements_tagline{
+   
+    font-size: 4em;
+  
+    margin-top: -2%
+}
+
+figcaption{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5em;
+    color: white;
+    margin-top: 3%;
+    font-weight: 100;
+}
+
+a{
+    text-decoration: none;
+}   
+	   
+
+/*END OF HOME PAGE MEDIA QUERIES*/
+	   
+.copper_h1 {
+    
+  font-size:7em;
+}
+
+
+.copper_h2 {
+       
+font-size:3em;
+
+}
+
+p {
+    font-size: 2.5em;
+    width: 20em;
+
+}
+
+p2 {
+    font-size: 3em;
+
+}
+
+p3 {
+    font-size: 3em;
+    color: floralwhite;
+    font-family: 'Roboto', sans-serif;
+    width: 21em;
+    text-align: center;
+    line-height: 1.4em;
+    position:relative;
+    bottom:105px;
+
+}
+
+.Cu{	
+width: 25%;
+		   
+	   } 
+input {
+   
+    font-size: 3em;
+
+}
+	   
+.questionmark{
+		 width: 10%;
+		   
+	   }
+   
+
+.girlspeech{
+		   
+		   width: 18%;
+	   }
+	   
+	   .eyesize{
+		   width:5.5em;
+		   margin-top: 2%;
+	   }
+
+
+	   .dottedbox{
+		   width: 130em;
+		   margin-top: 5%;
+	   }
+.items{
+   
+display: flex;
+display: -webkit-flex;
+flex-direction: row;
+position: absolute;
+margin-top:8%;
+
+    
+}
+	   
+	   .dotteditems{
+		   width: 30%;
+		
+	   }
+
+
+p1 {
+    
+font-size: 2em;
+
+}
+	   
+/*END OF COPPER */
+	   
+	   
+.aluminium_h1 {
+    
+  font-size:7em;
+}
+
+
+.aluminium_h2 {
+       
+font-size:3em;
+
+}
+
+.Al{	
+width: 25%;
+		   
+	   } 
+  
+/*END OF ALUMINIUM MEDIA QUERIES*/
+	   
+	   
+.gold_h1 {
+    
+  font-size:7em;
+}
+
+
+.gold_h2 {
+       
+font-size:3em;
+
+}
+
+.Au{	
+width: 25%;
+		   
+	   } 	   
+	   
+/*END OF GOLD MEDIA QUERIES*/
+	   
+	  .iron_h1 {
+    
+  font-size:7em;
+}
+
+
+.iron_h2 {
+       
+font-size:3em;
+
+}
+
+.Fe{	
+width: 25%;
+		   
+	   } 
+/*END OF IRON MEDIA QUEREIES*/
+	   
+	   
+	   
+.silver_h1 {
+    
+  font-size:7em;
+}
+
+
+.silver_h2 {
+       
+font-size:3em;
+
+}
+
+.Ag{	
+width: 25%;
+		   
+	   } 
+}
+
+/*END OF MAC QUERIES*/
+
+
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px) {
+	
+
+/*elements select page*/
+
+.dottedbox{
+ 	width: 100em;
+	margin-top: 0%;
+	display: none;
+	   }
+.items{
+ 
+margin-top:0%;
+margin-bottom: 15%;
+    
+}
+	   
+}
+
+/*END OF IPAD MEDIA*/
+
+
+@media only screen  
+and (max-device-width : 736px) {
+	
+
+
+/*END OF HOME PAGE MEDIA QUERIES*/
+	   
+.copper_h1 {
+    
+  font-size:2.5em;
+	margin-top: 15%;
+}
+
+
+.copper_h2 {
+       
+font-size:1.2em;
+
+}
+
+p {
+    font-size: 1em;
+    width: 20em;
+	margin-top: 12%;
+
+}
+
+p2 {
+    font-size: 1.2em;
+
+}
+
+p3 {
+    font-size: 1.1em;
+   
+    width: 15em;
+
+}
+
+.Cu{	
+width: 50%;
+	margin-top: 10%;
+		   
+	   } 
+input {
+   
+    font-size: 1em;
+	position: relative;
+
+
+}
+	   
+.questionmark{
+		 width: 10%;
+		   
+	   }
+   
+
+.girlspeech{
+		   
+		   width: 18%;
+	   }
+	   
+	   .eyesize{
+		   width:2.7em;
+		   margin-top: 2%;
+	   }
+
+
+	   .dottedbox{
+		   width: 130em;
+		   margin-top: 5%;
+		   display: none;
+	   }
+.items{
+   
+display: flex;
+display: -webkit-flex;
+flex-direction: column;
+position: absolute;
+margin-top:0%;
+	flex-wrap: wrap;
+
+    
+}
+	   
+	   .dotteditems{
+		   width: 30%;
+		
+	   }
+
+
+p1 {
+    
+font-size: 1.7em;
+
+}
+.used_1{
+    
+right:0%;
+	margin-bottom: 10%;
+
+    
+}
+
+.used_2{
+    
+	right: 0%;
+	margin-bottom: 10%;
+
+}
+
+.used_3{
+left: 0%;  
+right: 0%;
+	margin-bottom: 10%;
+    
+}
+
+.used_4{
+  left: 0% ; 
+right: 0%;
+	margin-bottom: 10%;
+    
+}
+
+.used_5{
+   left: 0% ;
+right: 0%;
+	margin-bottom: 10%;
+}	
+	
+	
+/*END OF COPPER */
+	   
+	   
+.aluminium_h1 {
+    
+  font-size:2.5em;
+}
+
+
+.aluminium_h2 {
+       
+font-size:1.2em;
+
+}
+
+.Al{	
+width: 50%;
+		   
+	   } 
+  
+/*END OF ALUMINIUM MEDIA QUERIES*/
+	   
+	   
+.gold_h1 {
+    
+  font-size:2.5em;
+}
+
+
+.gold_h2 {
+       
+font-size:1.2em;
+
+}
+
+.Au{	
+width: 50%;
+		   
+	   } 	   
+	   
+/*END OF GOLD MEDIA QUERIES*/
+	   
+	  .iron_h1 {
+    
+  font-size:2.5em;
+}
+
+
+.iron_h2 {
+       
+font-size:1.2em;
+
+}
+
+.Fe{	
+width: 50%;
+		   
+	   } 
+/*END OF IRON MEDIA QUEREIES*/
+	   
+	   
+	   
+.silver_h1 {
+    
+  font-size:2.5em;
+}
+
+
+.silver_h2 {
+       
+font-size:1.2em;
+
+}
+
+.Ag{	
+width: 50%;
+		   
+	   } 
+	
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
